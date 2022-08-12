@@ -13,7 +13,7 @@ export class CourseListComponents implements OnInit {
       {
         id: 1,
         name: 'Anuglar',
-        imageUrl: '',
+        imageUrl: '/assets/images/forms.png',
         price: 99.99,
         code: 'XPTO',
         duration: 120,
@@ -23,7 +23,7 @@ export class CourseListComponents implements OnInit {
       {
         id: 2,
         name: 'Anuglar 13',
-        imageUrl: '',
+        imageUrl: '/assets/images/http.png',
         price: 199.99,
         code: 'XYZ',
         duration: 120,
