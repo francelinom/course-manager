@@ -17,7 +17,7 @@ export class CourseListComponents implements OnInit {
         price: 99.99,
         code: 'XPTO',
         duration: 120,
-        rating: 5.4,
+        rating: 3.5,
         releaseDate: 'december, 2, 2021',
       },
       {
@@ -27,7 +27,7 @@ export class CourseListComponents implements OnInit {
         price: 199.99,
         code: 'XYZ',
         duration: 120,
-        rating: 5.9,
+        rating: 5,
         releaseDate: 'december, 20, 2021',
       },
     ];
