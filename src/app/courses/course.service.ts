@@ -8,6 +8,19 @@ export class CourseService {
   retriveAll(): Course[] {
     return COURSES;
   }
+
+  retriveById(id: number): Course {
+    return COURSES.find((courseIteretor: Course) => courseIteretor.id === id)!;
+  }
+
+  save(course: Course): void {
+    if (course.id) {
+      const index = COURSES.findIndex(
+        (courseIteretor: Course) => courseIteretor.id === course.id
+      );
+      COURSES[index] = course;
+    }
+  }
 }
 
 var COURSES: Course[] = [
