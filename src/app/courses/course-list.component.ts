@@ -10,6 +10,7 @@ export class CourseListComponents implements OnInit {
   filteredCourses: Course[] = [];
   _courses: Course[] = [];
   _filterBy: string = '';
+  msg: string = '';
 
   constructor(private courseService: CourseService) {}
 
@@ -24,6 +25,16 @@ export class CourseListComponents implements OnInit {
         this.filteredCourses = this._courses;
       },
       error: (err) => console.log('Error:', err),
+    });
+  }
+
+  deleteById(courseId: number): void {
+    this.courseService.delete(courseId).subscribe({
+      next: (course) => {
+        this.msg = `Course delete success!`;
+        this.retriveAll();
+      },
+      error: (err) => console.log('Error: ', err),
     });
   }
 
