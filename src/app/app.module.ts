@@ -4,6 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { Error404Component } from './404/error-404.component';
 
+import { HttpClientModule } from '@angular/common/http';
+
 import { AppComponent } from './app.component';
 import { CourseInfoComponent } from './courses/course-info/course-info.component';
 import { CourseListComponents } from './courses/course-list.component';
@@ -23,6 +25,7 @@ import { StarComponent } from './star/star.component';
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot([
       {
         path: '',
