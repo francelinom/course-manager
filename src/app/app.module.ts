@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 import { Error404Component } from './404/error-404.component';
 
 import { AppComponent } from './app.component';
+import { CourseInfoComponent } from './courses/course-info/course-info.component';
 import { CourseListComponents } from './courses/course-list.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { ReplacePipe } from './pipe/replace.pipe';
@@ -17,6 +18,7 @@ import { StarComponent } from './star/star.component';
     StarComponent,
     NavBarComponent,
     ReplacePipe,
+    CourseInfoComponent,
   ],
   imports: [
     BrowserModule,
@@ -30,6 +32,10 @@ import { StarComponent } from './star/star.component';
       {
         path: 'courses',
         component: CourseListComponents,
+      },
+      {
+        path: 'courses/info/:id',
+        component: CourseInfoComponent,
       },
       {
         path: '**',
