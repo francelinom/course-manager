@@ -1,27 +1,78 @@
 # CourseManager
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.5.
+---
 
-## Development server
+## Indice
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [CourseManager](#CourseManager)
+  - [Indice](#indice)
+  - [Sobre](#sobre)
+  - [Funcionalidade da Aplicação](#funcionalidade-da-aplicação)
+  - [Tecnologias utilizadas](#tecnologias-utilizadas)
+  - [Como baixar o projeto](#como-baixar-o-projeto)
+  - [Telas](#telas)
+  - [Autor](#autor)
+  
+---
 
-## Code scaffolding
+## Sobre
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O Projeto **CourseManager** foi desenvolvido para estudo para criar um CRUD e pesquisa por nome de uma aplicação de cursos em Angular 13.
 
-## Build
+---
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Funcionalidade da Aplicação
 
-## Running unit tests
+As funcionalidades são:
+- Criar Curso;
+- Listar Cruso;
+- Editar Cruso;
+- Excluir Cruso.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
+## Tecnologias utilizadas 
 
-## Running end-to-end tests
+O projeto foi desenvolvido utilizando as seguintes tecnologias
+- Angular 13
+- TypeScript
+- Font-awesome 4
+- Bootstrap 5
+- CSS
+- HTML
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
+## Como baixar o projeto
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+# Clonar o repositório em sua máquina 
+$ git clone https://github.com/francelinom/course-manager.git
+
+# Entrar na pasta do projeto 
+$ cd course-manager
+
+# Instalar todas as dependências 
+$ npm i
+
+# Iniciar o projeto 
+ng serve
+# or
+yarn dev
+
+Abrir o projeto na porta: http://localhost:4200
+```
+
+---
+## Telas
+<img src="src/assets/images/tela1.png">
+
+<img src="src/assets/images/tela2.png">
+
+---
+## Autor
+
+Desenvolvido por **Francelino Marcílio da Silva** 
+<h1>
+  <img src="src/assets/images/eumesmo.jpg">
+</h1>
+
